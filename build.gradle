@@ -79,7 +79,6 @@ subprojects {
     apply plugin: 'maven-publish'
     apply plugin: "io.freefair.lombok"
     apply plugin: 'com.github.hierynomus.license'
-    apply plugin: 'maven-publish'
 
     sourceCompatibility = "${javaVersion}"
     targetCompatibility = "${javaVersion}"
